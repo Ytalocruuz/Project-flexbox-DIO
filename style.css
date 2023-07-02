@@ -47,7 +47,7 @@ header .menu{
     justify-content: space-between;
 }
 .apresentacao {
-    height: 100vh;
+    /* height: 100vh; */
     align-items: center;
     justify-content: space-between;
 }
@@ -161,8 +161,8 @@ header .menu{
 
 #planos {
     flex-direction: column;
-    min-height: 100vh; 
-    padding-top: 50px;
+    /* min-height: 100vh;  */
+    padding:50px 0px 50px 50px;
 }
 
 #planos h2 {
@@ -230,6 +230,7 @@ footer {
     height: 70px;
     display: flex;
     align-items: center;
+    padding:20px 0px 20px 0px;
 }
 footer .footer {
     justify-content: space-between;
